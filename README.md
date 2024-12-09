@@ -110,7 +110,7 @@ curl -X POST http://localhost:8080/api/orders \
     "totalPrice": 100.00
 }'
 ```
-![image](https://github.com/user-attachments/assets/8ade1e52-e0ff-4627-ae74-e60637d1e7ae)
+![image](https://github.com/user-attachments/assets/f587a00c-9e4e-478b-91ac-2d4676b47bee)
 
 ---
 
@@ -124,7 +124,7 @@ curl -X POST http://localhost:8080/api/orders \
 ```bash
 curl -X GET http://localhost:8080/api/orders
 ```
-![image](https://github.com/user-attachments/assets/d7b4dd4c-1f7b-4d8b-9685-aeec2c5fe228)
+![image](https://github.com/user-attachments/assets/e4247266-db03-4df8-8a4f-cffc170a5e0c)
 
 ---
 
@@ -138,7 +138,7 @@ curl -X GET http://localhost:8080/api/orders
 ```bash
 curl -X GET http://localhost:8080/api/orders/1
 ```
-![image](https://github.com/user-attachments/assets/26e9e2ab-f785-4fc1-b16f-0846dc475b29)
+![image](https://github.com/user-attachments/assets/bf5ee388-0d5b-474b-96b2-11dbe1550755)
 
 ---
 
@@ -152,7 +152,7 @@ curl -X GET http://localhost:8080/api/orders/1
 ```bash
 curl -X PUT "http://localhost:8080/api/orders/1?status=PROCESSED"
 ```
-![image](https://github.com/user-attachments/assets/b990c871-415c-4fa4-9c1d-19aec4881ad4)
+![image](https://github.com/user-attachments/assets/9c5a9887-ce25-489c-a0b7-b29da9e27ba8)
 
 ---
 
@@ -166,7 +166,7 @@ curl -X PUT "http://localhost:8080/api/orders/1?status=PROCESSED"
 ```bash
 curl -X GET http://localhost:8080/api/orders/fetch
 ```
-![image](https://github.com/user-attachments/assets/552e0216-e634-4ae0-85bc-23c87c0e31a4)
+![image](https://github.com/user-attachments/assets/13a46471-0f50-4169-ada0-8ed9ece6699d)
 
 ---
 
@@ -180,7 +180,7 @@ curl -X GET http://localhost:8080/api/orders/fetch
 ```bash
 curl -X POST http://localhost:8080/api/orders/send-to-product-b
 ```
-![image](https://github.com/user-attachments/assets/9256bc0c-2f96-4065-96bf-2d76c8ac18a0)
+![image](https://github.com/user-attachments/assets/a344ee59-c9fb-40f8-aa67-4e6caba8620e)
 
 ---
 
@@ -194,7 +194,7 @@ curl -X POST http://localhost:8080/api/orders/send-to-product-b
 ```bash
 curl -X DELETE http://localhost:8080/api/orders/1
 ```
-![image](https://github.com/user-attachments/assets/85635998-cce2-4549-adb8-181393ea9449)
+![image](https://github.com/user-attachments/assets/8615df61-7c6f-4b2c-b825-7cc465e8d1f4)
 
 ---
 
